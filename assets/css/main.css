@@ -1,5 +1,11 @@
 @import url(fontawesome-all.min.css);
 
+.inner-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -178,7 +184,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
-		margin: 0 0 0.5em 0;
+		margin: 0.5em 0 0.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3261,6 +3267,11 @@ input, select, textarea {
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
+		}
+
+		.wrapper.style-default {
+			background-color: #ffffff;
+			color: #5e42a6;
 		}
 
 		.wrapper.fullscreen {
