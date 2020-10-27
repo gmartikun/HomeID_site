@@ -3501,9 +3501,25 @@ input, select, textarea {
 
 		}
 
-	#header + #wrapper > .wrapper > .inner {
-		margin: 0 auto;
+@media screen and (max-width: 950px) {
+
+	.wrapper.fullscreen {
+		display: block;
+		flex-direction: column;
+		justify-content: center;
+    }
+
+	.wrapper.fullscreen .inner:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
+
+}
+
+    #header + #wrapper > .wrapper > .inner {
+        margin: 0 auto;
+    }
 
 /* Footer */
 
