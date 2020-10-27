@@ -3273,11 +3273,11 @@ input, select, textarea {
 			background-color: #ffffff;
 			color: #5e42a6;
 		}
-.wrapper.style-default-alt {
-    background-image: url("../../images/background1.jpg");
-	/*background-color: rgb(251, 255, 253);*/
-	color: #ffffff;
-}
+
+        .wrapper.style-default-alt {
+            background-image: url("../../images/background1.jpg");
+            color: #ffffff;
+        }
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
