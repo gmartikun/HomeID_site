@@ -2558,7 +2558,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #5b478e;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3262,11 +3262,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #5b478e;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #5b478e;
 		}
 
 		.wrapper.style-default {
@@ -3275,7 +3275,9 @@ input, select, textarea {
 		}
 
         .wrapper.style-default-alt {
-            background-image: url("../../images/background1.jpg");
+            /*background-image: url("../../images/background1.jpg");*/
+			background-color: #565DA6;
+			/*background-color: rgba(0, 0, 255, 0.1);*/
             color: #ffffff;
         }
 
