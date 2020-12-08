@@ -1852,6 +1852,11 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
+	.button-taste{
+		border-color: rgba(244, 160, 30, 0.72) !important;
+		border-radius: 3em;
+		color: rgba(244, 160, 30, 0.8) !important;
+	}
 
 		input[type="submit"]:after,
 		input[type="reset"]:after,
@@ -1947,6 +1952,10 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			border-color: rgba(255, 255, 255, 0.55) !important;
+		}
+		.button-taste:hover {
+			border-color: #F4A01E !important;
+			color: #F4A01E !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -3554,6 +3563,14 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	.taste {
+		margin:0 0 20px 0;
+		text-align: center;
+		font-size: 1em;
+		color: #F4A01E;
+		opacity: 0.8
+	}
+
 /* Sidebar */
 
 	#sidebar {
@@ -3942,7 +3959,8 @@ input, select, textarea {
 
 		}
 
-/*intercom*/
+/* intercom */
+
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);*/
 
 /*.price-main {*/
