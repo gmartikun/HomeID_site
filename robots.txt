@@ -1,2 +1,3 @@
 User-agent: *
-allow: /
+Allow: /
+Sitemap: https://homeid.by/sitemap.xml
