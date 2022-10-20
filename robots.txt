@@ -1,3 +1,15 @@
-User-agent: *
-Allow: /
-Sitemap: https://homeid.by/sitemap.xml
+User-Agent: *
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: http://homeid.tilda.ws/sitemap.xml
+Host: homeid.tilda.ws
